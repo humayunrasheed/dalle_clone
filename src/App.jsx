@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter,Link,Route,Routes } from 'react-router-dom'
-import logo from './assets'
+import assets from './assets';
+const {  logo } = assets;
 import CreatePost from './pages/CreatePost';
 import Home from './pages/Home';
 
